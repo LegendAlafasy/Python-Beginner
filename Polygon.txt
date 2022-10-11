@@ -1,0 +1,13 @@
+import turtle as t
+side=12
+
+def draw_polygon(side):
+    for i in range(12):
+        t.forward(100)
+        t.left(360/side)
+    
+        
+
+draw_polygon(side)
+
+    
